@@ -1,0 +1,3640 @@
+{
+ "title": "Qui vit ici ?",
+ "subtitle": "Clés de détermination — forêt de l'Ancyse, ripisylve et rivière Cèze (Bagnols-sur-Cèze)",
+ "level": "6e",
+ "biomes": [
+  {
+   "id": "foret",
+   "name": "Forêt de l'Ancyse",
+   "tab": "Forêt",
+   "keys": [
+    {
+     "type": "vegetaux",
+     "label": "Végétaux",
+     "title": "Clé de la forêt",
+     "intro": "Pars de la balise 1 : elle te dit dans quelle clé chercher.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Un être vivant, ou un morceau (feuille, fleur, fruit…)",
+        "go",
+        2
+       ],
+       [
+        "Une trace : empreinte, crotte, plume, nid, galle…",
+        "ext",
+        "foret-traces",
+        "Clé des traces",
+        38
+       ]
+      ],
+      "2": [
+       [
+        "Il a des yeux et une bouche",
+        "ext",
+        "foret-animaux",
+        "Clé des animaux",
+        28
+       ],
+       [
+        "Il n'a ni yeux ni bouche",
+        "go",
+        3
+       ]
+      ],
+      "3": [
+       [
+        "Une tige et des feuilles, même minuscules : un végétal",
+        "go",
+        4
+       ],
+       [
+        "Ni tige ni feuilles : console, croûte ou lanières",
+        "ext",
+        "foret-npa",
+        "Champignons et lichens",
+        24
+       ]
+      ],
+      "4": [
+       [
+        "Toute petite plante sans fleurs, en tapis ou en coussin vert : une mousse",
+        "go",
+        5
+       ],
+       [
+        "Plante plus grande",
+        "go",
+        7
+       ]
+      ],
+      "5": [
+       [
+        "Tapis plat sur l'écorce ou une souche, tiges couchées",
+        "sp",
+        1
+       ],
+       [
+        "Petit coussin sur un mur ou une pierre",
+        "go",
+        6
+       ]
+      ],
+      "6": [
+       [
+        "Coussin rond gris argenté, très serré",
+        "sp",
+        2
+       ],
+       [
+        "Petit gazon vert, capsules sur de longs pieds rouges",
+        "sp",
+        3
+       ]
+      ],
+      "7": [
+       [
+        "La plante grimpe ou s'emmêle dans les buissons",
+        "go",
+        8
+       ],
+       [
+        "La plante tient debout toute seule",
+        "go",
+        11
+       ]
+      ],
+      "8": [
+       [
+        "Tiges couvertes de petits bouquets d'aiguilles piquantes",
+        "sp",
+        4
+       ],
+       [
+        "Tiges avec de vraies feuilles",
+        "go",
+        9
+       ]
+      ],
+      "9": [
+       [
+        "Feuilles en étoile autour de la tige, qui accrochent",
+        "sp",
+        5
+       ],
+       [
+        "Feuilles une par une le long de la tige",
+        "go",
+        10
+       ]
+      ],
+      "10": [
+       [
+        "Tige avec de petites épines, feuilles en cœur",
+        "sp",
+        6
+       ],
+       [
+        "Tige sans épines, avec de petits crampons",
+        "sp",
+        7
+       ]
+      ],
+      "11": [
+       [
+        "Herbe en touffe : longues feuilles en ruban, ou tiges fines comme du jonc",
+        "go",
+        12
+       ],
+       [
+        "Autre plante",
+        "go",
+        15
+       ]
+      ],
+      "12": [
+       [
+        "Touffe de tiges fines bleu-vert, sans vraies feuilles, fleurs bleues au printemps",
+        "sp",
+        8
+       ],
+       [
+        "De longues feuilles en ruban",
+        "go",
+        13
+       ]
+      ],
+      "13": [
+       [
+        "Tige à 3 angles, sans nœuds, petits épis bruns",
+        "sp",
+        9
+       ],
+       [
+        "Tige ronde et creuse, avec des nœuds : une graminée",
+        "go",
+        14
+       ]
+      ],
+      "14": [
+       [
+        "Épillets gonflés en forme de cœur, qui pendent et tremblent",
+        "sp",
+        10
+       ],
+       [
+        "1 à 3 épis plats et étroits au bout de tiges ramifiées",
+        "go",
+        39
+       ]
+      ],
+      "15": [
+       [
+        "Plante avec des tiges en bois (arbre, arbuste)",
+        "go",
+        16
+       ],
+       [
+        "Plante aux tiges souples, sans bois",
+        "go",
+        34
+       ]
+      ],
+      "16": [
+       [
+        "Feuilles en aiguilles ou très étroites (moins de 5 mm)",
+        "go",
+        17
+       ],
+       [
+        "Feuilles plates et larges",
+        "go",
+        22
+       ]
+      ],
+      "17": [
+       [
+        "Aiguilles longues (plus de 5 cm), groupées par 2",
+        "go",
+        18
+       ],
+       [
+        "Aiguilles ou feuilles plus courtes",
+        "go",
+        19
+       ]
+      ],
+      "18": [
+       [
+        "Aiguilles fines et souples, cônes de 5 à 10 cm",
+        "sp",
+        12
+       ],
+       [
+        "Aiguilles épaisses et raides, gros cônes pointus",
+        "sp",
+        13
+       ]
+      ],
+      "19": [
+       [
+        "Aiguilles piquantes par 3, baies brun-rouge",
+        "sp",
+        14
+       ],
+       [
+        "Feuilles qui ne piquent pas",
+        "go",
+        20
+       ]
+      ],
+      "20": [
+       [
+        "Arbuste de plus de 1 m, feuilles minuscules, sans odeur",
+        "sp",
+        15
+       ],
+       [
+        "Sent fort quand on la froisse",
+        "go",
+        21
+       ]
+      ],
+      "21": [
+       [
+        "Feuilles de 2 à 3 cm, vertes dessus, blanches dessous",
+        "sp",
+        16
+       ],
+       [
+        "Feuilles minuscules (moins de 1 cm), plante basse",
+        "sp",
+        17
+       ]
+      ],
+      "22": [
+       [
+        "Feuille molle, qui jaunit en octobre",
+        "go",
+        23
+       ],
+       [
+        "Feuille dure et épaisse, qui reste verte",
+        "go",
+        27
+       ]
+      ],
+      "23": [
+       [
+        "Rameaux avec des épines ou des aiguillons",
+        "go",
+        24
+       ],
+       [
+        "Pas d'épines",
+        "go",
+        25
+       ]
+      ],
+      "24": [
+       [
+        "Feuille faite de 5 à 7 folioles, aiguillons crochus, fruits rouges allongés",
+        "sp",
+        18
+       ],
+       [
+        "Feuille découpée en 3 à 5 lobes, épines droites, petites boules rouges",
+        "sp",
+        19
+       ]
+      ],
+      "25": [
+       [
+        "Feuille découpée en lobes arrondis, glands",
+        "sp",
+        20
+       ],
+       [
+        "Pas de lobes arrondis",
+        "go",
+        26
+       ]
+      ],
+      "26": [
+       [
+        "Feuille en main à 5 lobes, fruits à 2 ailes",
+        "sp",
+        21
+       ],
+       [
+        "Longue feuille bordée de dents, bogues piquantes",
+        "sp",
+        22
+       ]
+      ],
+      "27": [
+       [
+        "La feuille pique (épine au bout ou dents piquantes)",
+        "go",
+        28
+       ],
+       [
+        "La feuille ne pique pas",
+        "go",
+        30
+       ]
+      ],
+      "28": [
+       [
+        "Petite « feuille » ovale finie par une épine, baie rouge au milieu",
+        "sp",
+        23
+       ],
+       [
+        "Feuille bordée de dents piquantes, glands",
+        "go",
+        29
+       ]
+      ],
+      "29": [
+       [
+        "Dessous de la feuille gris et duveteux",
+        "sp",
+        24
+       ],
+       [
+        "Feuille luisante des 2 côtés, gland à cupule hérissée",
+        "sp",
+        25
+       ]
+      ],
+      "30": [
+       [
+        "Feuilles collantes ou toutes douces, arbuste de moins de 1 m",
+        "go",
+        31
+       ],
+       [
+        "Feuilles lisses, ni collantes ni douces",
+        "go",
+        32
+       ]
+      ],
+      "31": [
+       [
+        "Feuilles gris clair, douces comme du velours",
+        "sp",
+        26
+       ],
+       [
+        "Feuilles vertes, rugueuses et ridées",
+        "sp",
+        27
+       ]
+      ],
+      "32": [
+       [
+        "Dessous de la feuille gris et duveteux, glands",
+        "sp",
+        24
+       ],
+       [
+        "Dessous de la feuille vert",
+        "go",
+        33
+       ]
+      ],
+      "33": [
+       [
+        "Bord finement denté, fruits rouges granuleux",
+        "sp",
+        28
+       ],
+       [
+        "Bord lisse, petites boules bleu métallique",
+        "sp",
+        29
+       ]
+      ],
+      "34": [
+       [
+        "Feuilles gris-bleu serrées tout le long de tiges épaisses",
+        "sp",
+        30
+       ],
+       [
+        "Autre plante",
+        "go",
+        35
+       ]
+      ],
+      "35": [
+       [
+        "Feuilles vert sombre découpées en longs doigts, clochettes vertes bordées de pourpre",
+        "sp",
+        31
+       ],
+       [
+        "Feuilles entières ou très petites",
+        "go",
+        36
+       ]
+      ],
+      "36": [
+       [
+        "Tige arquée, feuilles ovales aux nervures parallèles, clochettes blanches pendantes",
+        "sp",
+        32
+       ],
+       [
+        "Tige dressée",
+        "go",
+        37
+       ]
+      ],
+      "37": [
+       [
+        "Plante collante qui sent fort, fleurs jaunes",
+        "sp",
+        33
+       ],
+       [
+        "Fleurs mauves",
+        "go",
+        38
+       ]
+      ],
+      "38": [
+       [
+        "Fleurs en pompon au bout d'une longue tige presque nue",
+        "sp",
+        34
+       ],
+       [
+        "Petites fleurs le long de la tige, odeur de menthe",
+        "sp",
+        35
+       ]
+      ],
+      "39": [
+       [
+        "Épis fins et soyeux, groupés en éventail au bout de la tige",
+        "sp",
+        36
+       ],
+       [
+        "1 à 3 épis plats et étroits au bout de tiges ramifiées",
+        "sp",
+        11
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "foret-vegetaux-hypne-cypres",
+       "name": "Hypne cyprès",
+       "lat": "Hypnum cupressiforme",
+       "cap": "Tapis plat sur écorce et souches",
+       "image": "images/foret-vegetaux-hypne-cypres.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 7
+      },
+      "2": {
+       "id": "foret-vegetaux-grimmie-en-coussinet",
+       "name": "Grimmie en coussinet",
+       "lat": "Grimmia pulvinata",
+       "cap": "Coussin gris argenté sur les murs",
+       "image": "images/foret-vegetaux-grimmie-en-coussinet.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 7
+      },
+      "3": {
+       "id": "foret-vegetaux-tortule-des-murs",
+       "name": "Tortule des murs",
+       "lat": "Tortula muralis",
+       "cap": "Gazon vert, capsules sur pieds rouges",
+       "image": "images/foret-vegetaux-tortule-des-murs.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 7
+      },
+      "4": {
+       "id": "foret-vegetaux-asperge-sauvage",
+       "name": "Asperge sauvage",
+       "lat": "Asparagus acutifolius",
+       "cap": "Bouquets d'aiguilles piquantes",
+       "image": "images/foret-vegetaux-asperge-sauvage.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 9
+      },
+      "5": {
+       "id": "foret-vegetaux-garance-voyageuse",
+       "name": "Garance voyageuse",
+       "lat": "Rubia peregrina",
+       "cap": "Feuilles en étoile qui s'accrochent",
+       "image": "images/foret-vegetaux-garance-voyageuse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 9
+      },
+      "6": {
+       "id": "foret-vegetaux-salsepareille",
+       "name": "Salsepareille",
+       "lat": "Smilax aspera",
+       "cap": "Liane à épines",
+       "image": "images/foret-vegetaux-salsepareille.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 9
+      },
+      "7": {
+       "id": "foret-vegetaux-lierre",
+       "name": "Lierre",
+       "lat": "Hedera helix",
+       "cap": "Grimpe avec des crampons",
+       "image": "images/foret-vegetaux-lierre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 9
+      },
+      "8": {
+       "id": "foret-vegetaux-aphyllanthe-de-montpellier",
+       "name": "Aphyllanthe de Montpellier",
+       "lat": "Aphyllanthes monspeliensis",
+       "cap": "Touffe de « joncs » bleu-vert, fleur bleue",
+       "image": "images/foret-vegetaux-aphyllanthe-de-montpellier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 11
+      },
+      "9": {
+       "id": "foret-vegetaux-laiche-de-haller",
+       "name": "Laîche de Haller",
+       "lat": "Carex halleriana",
+       "cap": "Tige à 3 angles, sous les chênes verts",
+       "image": "images/foret-vegetaux-laiche-de-haller.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 11
+      },
+      "10": {
+       "id": "foret-vegetaux-grande-brize",
+       "name": "Grande brize",
+       "lat": "Briza maxima",
+       "cap": "Épillets en cœur qui tremblent",
+       "image": "images/foret-vegetaux-grande-brize.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 11
+      },
+      "11": {
+       "id": "foret-vegetaux-brachypode-rameux",
+       "name": "Brachypode rameux",
+       "lat": "Brachypodium retusum",
+       "cap": "Herbe de garrigue en touffes",
+       "image": "images/foret-vegetaux-brachypode-rameux.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 11
+      },
+      "12": {
+       "id": "foret-vegetaux-pin-d-alep",
+       "name": "Pin d'Alep",
+       "lat": "Pinus halepensis",
+       "cap": "Aiguilles fines par 2, petits cônes",
+       "image": "images/foret-vegetaux-pin-d-alep.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 13
+      },
+      "13": {
+       "id": "foret-vegetaux-pin-maritime",
+       "name": "Pin maritime",
+       "lat": "Pinus pinaster",
+       "cap": "Aiguilles épaisses, gros cônes",
+       "image": "images/foret-vegetaux-pin-maritime.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 13
+      },
+      "14": {
+       "id": "foret-vegetaux-genevrier-oxycedre",
+       "name": "Genévrier oxycèdre",
+       "lat": "Juniperus oxycedrus",
+       "cap": "Aiguilles piquantes par 3",
+       "image": "images/foret-vegetaux-genevrier-oxycedre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 13
+      },
+      "15": {
+       "id": "foret-vegetaux-bruyere-arborescente",
+       "name": "Bruyère arborescente",
+       "lat": "Erica arborea",
+       "cap": "Feuilles minuscules",
+       "image": "images/foret-vegetaux-bruyere-arborescente.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 13
+      },
+      "16": {
+       "id": "foret-vegetaux-romarin",
+       "name": "Romarin",
+       "lat": "Salvia rosmarinus",
+       "cap": "Feuilles vertes dessus, blanches dessous",
+       "image": "images/foret-vegetaux-romarin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 15
+      },
+      "17": {
+       "id": "foret-vegetaux-thym",
+       "name": "Thym",
+       "lat": "Thymus vulgaris",
+       "cap": "Sent fort quand on le froisse",
+       "image": "images/foret-vegetaux-thym.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 15
+      },
+      "18": {
+       "id": "foret-vegetaux-eglantier",
+       "name": "Églantier",
+       "lat": "Rosa canina",
+       "cap": "Aiguillons crochus, fruits rouges",
+       "image": "images/foret-vegetaux-eglantier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 15
+      },
+      "19": {
+       "id": "foret-vegetaux-aubepine-monogyne",
+       "name": "Aubépine monogyne",
+       "lat": "Crataegus monogyna",
+       "cap": "Épines, petites boules rouges",
+       "image": "images/foret-vegetaux-aubepine-monogyne.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 15
+      },
+      "20": {
+       "id": "foret-vegetaux-chene-pubescent",
+       "name": "Chêne pubescent",
+       "lat": "Quercus pubescens",
+       "cap": "Feuille à lobes, duveteuse",
+       "image": "images/foret-vegetaux-chene-pubescent.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 17
+      },
+      "21": {
+       "id": "foret-vegetaux-erable-champetre",
+       "name": "Érable champêtre",
+       "lat": "Acer campestre",
+       "cap": "Feuille en main, fruits à 2 ailes",
+       "image": "images/foret-vegetaux-erable-champetre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 17
+      },
+      "22": {
+       "id": "foret-vegetaux-chataignier",
+       "name": "Châtaignier",
+       "lat": "Castanea sativa",
+       "cap": "Feuille dentée, bogues",
+       "image": "images/foret-vegetaux-chataignier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 17
+      },
+      "23": {
+       "id": "foret-vegetaux-petit-houx",
+       "name": "Petit houx",
+       "lat": "Ruscus aculeatus",
+       "cap": "« Feuilles » piquantes, baie rouge",
+       "image": "images/foret-vegetaux-petit-houx.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 17
+      },
+      "24": {
+       "id": "foret-vegetaux-chene-vert",
+       "name": "Chêne vert",
+       "lat": "Quercus ilex",
+       "cap": "Feuille dure, dessous gris",
+       "image": "images/foret-vegetaux-chene-vert.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 19
+      },
+      "25": {
+       "id": "foret-vegetaux-chene-kermes",
+       "name": "Chêne kermès",
+       "lat": "Quercus coccifera",
+       "cap": "Feuilles piquantes, glands hérissés",
+       "image": "images/foret-vegetaux-chene-kermes.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 19
+      },
+      "26": {
+       "id": "foret-vegetaux-ciste-cotonneux",
+       "name": "Ciste cotonneux",
+       "lat": "Cistus albidus",
+       "cap": "Feuilles grises et douces",
+       "image": "images/foret-vegetaux-ciste-cotonneux.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 19
+      },
+      "27": {
+       "id": "foret-vegetaux-ciste-a-feuilles-de-sauge",
+       "name": "Ciste à feuilles de sauge",
+       "lat": "Cistus salviifolius",
+       "cap": "Feuilles vertes et ridées",
+       "image": "images/foret-vegetaux-ciste-a-feuilles-de-sauge.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 19
+      },
+      "28": {
+       "id": "foret-vegetaux-arbousier",
+       "name": "Arbousier",
+       "lat": "Arbutus unedo",
+       "cap": "Fruits rouges en octobre",
+       "image": "images/foret-vegetaux-arbousier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 21
+      },
+      "29": {
+       "id": "foret-vegetaux-laurier-tin",
+       "name": "Laurier-tin",
+       "lat": "Viburnum tinus",
+       "cap": "Boules bleu métallique",
+       "image": "images/foret-vegetaux-laurier-tin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 21
+      },
+      "30": {
+       "id": "foret-vegetaux-euphorbe-des-garrigues",
+       "name": "Euphorbe des garrigues",
+       "lat": "Euphorbia characias",
+       "cap": "Lait toxique : ne pas casser",
+       "image": "images/foret-vegetaux-euphorbe-des-garrigues.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 21
+      },
+      "31": {
+       "id": "foret-vegetaux-hellebore-fetide",
+       "name": "Hellébore fétide",
+       "lat": "Helleborus foetidus",
+       "cap": "Toxique : ne pas toucher",
+       "image": "images/foret-vegetaux-hellebore-fetide.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 21
+      },
+      "32": {
+       "id": "foret-vegetaux-sceau-de-salomon",
+       "name": "Sceau de Salomon",
+       "lat": "Polygonatum odoratum",
+       "cap": "Clochettes blanches pendantes",
+       "image": "images/foret-vegetaux-sceau-de-salomon.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 23
+      },
+      "33": {
+       "id": "foret-vegetaux-inule-visqueuse",
+       "name": "Inule visqueuse",
+       "lat": "Dittrichia viscosa",
+       "cap": "Collante, fleurs jaunes en automne",
+       "image": "images/foret-vegetaux-inule-visqueuse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 23
+      },
+      "34": {
+       "id": "foret-vegetaux-scabieuse-des-champs",
+       "name": "Scabieuse des champs",
+       "lat": "Knautia arvensis",
+       "cap": "Pompons mauves",
+       "image": "images/foret-vegetaux-scabieuse-des-champs.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 23
+      },
+      "35": {
+       "id": "foret-vegetaux-calament-nepeta",
+       "name": "Calament népéta",
+       "lat": "Clinopodium nepeta",
+       "cap": "Odeur de menthe",
+       "image": "images/foret-vegetaux-calament-nepeta.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 23
+      },
+      "36": {
+       "id": "foret-vegetaux-barbon-pied-de-poule",
+       "name": "Barbon pied-de-poule",
+       "lat": "Bothriochloa ischaemum",
+       "cap": "Épis soyeux en éventail",
+       "image": "images/foret-vegetaux-barbon-pied-de-poule.jpg",
+       "print": false,
+       "online": true,
+       "print_page": null
+      }
+     }
+    },
+    {
+     "type": "npa",
+     "label": "Champignons et lichens",
+     "title": "Ni plante, ni animal",
+     "intro": "Champignons et lichens ne sont ni des plantes ni des animaux. Ils poussent sur le bois, les écorces et les pierres. Pars de la balise 1.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Sort du bois (tronc, souche, branche morte) en consoles : un champignon",
+        "go",
+        2
+       ],
+       [
+        "Forme une croûte, des « feuilles » ou des lanières sur l'écorce ou la pierre : un lichen",
+        "go",
+        4
+       ]
+      ],
+      "2": [
+       [
+        "Grosses consoles molles jaune soufre et orange, en étages",
+        "sp",
+        1
+       ],
+       [
+        "Petites consoles fines comme du cuir",
+        "go",
+        3
+       ]
+      ],
+      "3": [
+       [
+        "Cercles de couleurs, dessous blanc percé de petits trous",
+        "sp",
+        2
+       ],
+       [
+        "Dessus poilu jaune-orangé, dessous lisse et orangé",
+        "sp",
+        3
+       ]
+      ],
+      "4": [
+       [
+        "Petites lanières ramifiées, dressées ou pendantes, dessous blanc",
+        "sp",
+        6
+       ],
+       [
+        "Collé à plat sur l'écorce ou la pierre",
+        "go",
+        5
+       ]
+      ],
+      "5": [
+       [
+        "Croûte qu'on ne peut pas soulever, petits disques à la surface",
+        "sp",
+        7
+       ],
+       [
+        "Petites « feuilles » qu'on peut soulever par le bord",
+        "go",
+        6
+       ]
+      ],
+      "6": [
+       [
+        "Jaune orangé",
+        "sp",
+        4
+       ],
+       [
+        "Vert pâle, grandes rosettes ondulées",
+        "sp",
+        5
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "foret-npa-polypore-soufre",
+       "name": "Polypore soufré",
+       "lat": "Laetiporus sulphureus",
+       "cap": "Grosses consoles jaune et orange",
+       "image": "images/foret-npa-polypore-soufre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 25
+      },
+      "2": {
+       "id": "foret-npa-tramete-versicolore",
+       "name": "Tramète versicolore",
+       "lat": "Trametes versicolor",
+       "cap": "Cercles de couleurs, dessous à trous",
+       "image": "images/foret-npa-tramete-versicolore.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 25
+      },
+      "3": {
+       "id": "foret-npa-steree-hirsute",
+       "name": "Stérée hirsute",
+       "lat": "Stereum hirsutum",
+       "cap": "Petites consoles poilues, dessous lisse",
+       "image": "images/foret-npa-steree-hirsute.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 25
+      },
+      "4": {
+       "id": "foret-npa-xanthorie-des-murailles",
+       "name": "Xanthorie des murailles",
+       "lat": "Xanthoria parietina",
+       "cap": "Petites feuilles jaune orangé",
+       "image": "images/foret-npa-xanthorie-des-murailles.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 27
+      },
+      "5": {
+       "id": "foret-npa-parmelie",
+       "name": "Parmélie",
+       "lat": "Flavoparmelia caperata",
+       "cap": "Grandes rosettes vert pâle",
+       "image": "images/foret-npa-parmelie.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 27
+      },
+      "6": {
+       "id": "foret-npa-evernie-du-prunier",
+       "name": "Évernie du prunier",
+       "lat": "Evernia prunastri",
+       "cap": "Lanières ramifiées, dessous blanc",
+       "image": "images/foret-npa-evernie-du-prunier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 27
+      },
+      "7": {
+       "id": "foret-npa-lecanore",
+       "name": "Lécanore",
+       "lat": "Lecanora chlarotera",
+       "cap": "Croûte grise à petits disques",
+       "image": "images/foret-npa-lecanore.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 27
+      }
+     }
+    },
+    {
+     "type": "animaux",
+     "label": "Animaux",
+     "title": "Clé des animaux",
+     "intro": "Tu as vu l'animal lui-même ? Pars de la balise 1.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Corps couvert de poils, de plumes ou d'écailles",
+        "go",
+        2
+       ],
+       [
+        "Pas de poils ni de plumes : une petite bête",
+        "go",
+        10
+       ]
+      ],
+      "2": [
+       [
+        "Des plumes et un bec : c'est un oiseau",
+        "go",
+        3
+       ],
+       [
+        "Des poils ou des écailles",
+        "go",
+        5
+       ]
+      ],
+      "3": [
+       [
+        "Vert, calotte rouge, frappe les troncs",
+        "sp",
+        1
+       ],
+       [
+        "Pas de vert sur le corps",
+        "go",
+        4
+       ]
+      ],
+      "4": [
+       [
+        "Taille d'un pigeon, tache bleue rayée sur l'aile",
+        "sp",
+        2
+       ],
+       [
+        "Petit, ventre jaune avec une bande noire",
+        "sp",
+        3
+       ]
+      ],
+      "5": [
+       [
+        "Écailles, longue queue, au soleil sur les pierres",
+        "sp",
+        4
+       ],
+       [
+        "Des poils : c'est un mammifère",
+        "go",
+        6
+       ]
+      ],
+      "6": [
+       [
+        "Vit dans les arbres, queue en panache",
+        "sp",
+        5
+       ],
+       [
+        "Vit au sol",
+        "go",
+        7
+       ]
+      ],
+      "7": [
+       [
+        "Pattes terminées par des sabots",
+        "go",
+        8
+       ],
+       [
+        "Pattes avec des doigts et des griffes",
+        "go",
+        9
+       ]
+      ],
+      "8": [
+       [
+        "Poils raides gris-noir, museau en groin",
+        "sp",
+        7
+       ],
+       [
+        "Corps fin, tache blanche sur les fesses",
+        "sp",
+        8
+       ]
+      ],
+      "9": [
+       [
+        "Pelage roux, queue touffue au bout blanc",
+        "sp",
+        9
+       ],
+       [
+        "Pelage gris, tête blanche à bandes noires",
+        "sp",
+        10
+       ]
+      ],
+      "10": [
+       [
+        "Une coquille",
+        "go",
+        11
+       ],
+       [
+        "Pas de coquille",
+        "go",
+        12
+       ]
+      ],
+      "11": [
+       [
+        "Coquille ronde, brune et rayée",
+        "sp",
+        11
+       ],
+       [
+        "Coquille allongée au bout cassé",
+        "sp",
+        12
+       ]
+      ],
+      "12": [
+       [
+        "Plus de 8 pattes",
+        "go",
+        13
+       ],
+       [
+        "8 pattes ou moins",
+        "go",
+        17
+       ]
+      ],
+      "13": [
+       [
+        "Chenille couverte de poils, souvent en file indienne",
+        "sp",
+        6
+       ],
+       [
+        "Corps dur, fait d'anneaux",
+        "go",
+        14
+       ]
+      ],
+      "14": [
+       [
+        "Se roule en boule bien ronde quand on le dérange",
+        "go",
+        15
+       ],
+       [
+        "Ne fait pas de boule",
+        "go",
+        16
+       ]
+      ],
+      "15": [
+       [
+        "7 paires de pattes, dos gris aux plaques bien nettes",
+        "sp",
+        13
+       ],
+       [
+        "Beaucoup de pattes, dos noir brillant aux bords clairs",
+        "sp",
+        14
+       ]
+      ],
+      "16": [
+       [
+        "Rond comme un fil, 2 paires de pattes par anneau",
+        "sp",
+        15
+       ],
+       [
+        "Plat et roux, 1 paire de pattes par anneau",
+        "sp",
+        16
+       ]
+      ],
+      "17": [
+       [
+        "8 pattes : c'est une araignée",
+        "go",
+        18
+       ],
+       [
+        "6 pattes : c'est un insecte",
+        "go",
+        19
+       ]
+      ],
+      "18": [
+       [
+        "Ventre rayé jaune et noir, zigzag blanc dans la toile",
+        "sp",
+        17
+       ],
+       [
+        "Ventre brun avec une croix blanche",
+        "sp",
+        18
+       ]
+      ],
+      "19": [
+       [
+        "Grandes ailes couvertes d'écailles : c'est un papillon",
+        "sp",
+        19
+       ],
+       [
+        "Pas de grandes ailes à écailles",
+        "go",
+        20
+       ]
+      ],
+      "20": [
+       [
+        "Ailes dures en carapace sur tout le dos",
+        "go",
+        21
+       ],
+       [
+        "Pas de carapace sur tout le dos",
+        "go",
+        22
+       ]
+      ],
+      "21": [
+       [
+        "Bombée et ronde, rouge à 7 points noirs",
+        "sp",
+        20
+       ],
+       [
+        "Allongé, noir ou bronzé, court vite au sol",
+        "sp",
+        21
+       ]
+      ],
+      "22": [
+       [
+        "Grandes pattes arrière pour sauter, ailes bleues",
+        "sp",
+        22
+       ],
+       [
+        "Pattes arrière ordinaires",
+        "go",
+        23
+       ]
+      ],
+      "23": [
+       [
+        "Des pinces au bout du ventre",
+        "sp",
+        23
+       ],
+       [
+        "Pas de pinces au bout du ventre",
+        "go",
+        24
+       ]
+      ],
+      "24": [
+       [
+        "Pattes de devant repliées, comme pour prier",
+        "sp",
+        24
+       ],
+       [
+        "Pattes de devant ordinaires",
+        "go",
+        25
+       ]
+      ],
+      "25": [
+       [
+        "Corps plat et ovale, rouge avec des taches noires",
+        "sp",
+        25
+       ],
+       [
+        "Taille très fine entre le thorax et le ventre",
+        "go",
+        26
+       ]
+      ],
+      "26": [
+       [
+        "Pas d'ailes, marche au sol : c'est une fourmi",
+        "go",
+        27
+       ],
+       [
+        "Des ailes, vole",
+        "go",
+        28
+       ]
+      ],
+      "27": [
+       [
+        "Toute noire, grosse tête, transporte des graines",
+        "sp",
+        26
+       ],
+       [
+        "Tête rousse, ventre noir en cœur qu'elle relève",
+        "sp",
+        27
+       ]
+      ],
+      "28": [
+       [
+        "Corps velu, brun et doré, sans jaune vif",
+        "sp",
+        28
+       ],
+       [
+        "Corps lisse, avec du jaune ou de l'orange",
+        "go",
+        29
+       ]
+      ],
+      "29": [
+       [
+        "Plus de 2,5 cm, presque noir, une seule bande orange",
+        "sp",
+        29
+       ],
+       [
+        "Fine, jaune et noire, pattes pendantes en vol",
+        "sp",
+        30
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "foret-animaux-pic-vert",
+       "name": "Pic vert",
+       "lat": "Picus viridis",
+       "cap": "Calotte rouge, tape les troncs",
+       "image": "images/foret-animaux-pic-vert.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 29
+      },
+      "2": {
+       "id": "foret-animaux-geai-des-chenes",
+       "name": "Geai des chênes",
+       "lat": "Garrulus glandarius",
+       "cap": "Tache bleue rayée sur l'aile",
+       "image": "images/foret-animaux-geai-des-chenes.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 29
+      },
+      "3": {
+       "id": "foret-animaux-mesange-charbonniere",
+       "name": "Mésange charbonnière",
+       "lat": "Parus major",
+       "cap": "Ventre jaune, cravate noire",
+       "image": "images/foret-animaux-mesange-charbonniere.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 29
+      },
+      "4": {
+       "id": "foret-animaux-lezard-des-murailles",
+       "name": "Lézard des murailles",
+       "lat": "Podarcis muralis",
+       "cap": "Au soleil sur les murs",
+       "image": "images/foret-animaux-lezard-des-murailles.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 29
+      },
+      "5": {
+       "id": "foret-animaux-ecureuil-roux",
+       "name": "Écureuil roux",
+       "lat": "Sciurus vulgaris",
+       "cap": "Queue en panache",
+       "image": "images/foret-animaux-ecureuil-roux.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 29
+      },
+      "6": {
+       "id": "foret-animaux-processionnaire-du-pin",
+       "name": "Processionnaire du pin",
+       "lat": "Thaumetopoea pityocampa",
+       "cap": "Poils urticants : ne pas toucher",
+       "image": "images/foret-animaux-processionnaire-du-pin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 29
+      },
+      "7": {
+       "id": "foret-animaux-sanglier",
+       "name": "Sanglier",
+       "lat": "Sus scrofa",
+       "cap": "Groin, poils raides",
+       "image": "images/foret-animaux-sanglier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 31
+      },
+      "8": {
+       "id": "foret-animaux-chevreuil",
+       "name": "Chevreuil",
+       "lat": "Capreolus capreolus",
+       "cap": "Tache blanche aux fesses",
+       "image": "images/foret-animaux-chevreuil.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 31
+      },
+      "9": {
+       "id": "foret-animaux-renard-roux",
+       "name": "Renard roux",
+       "lat": "Vulpes vulpes",
+       "cap": "Queue au bout blanc",
+       "image": "images/foret-animaux-renard-roux.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 31
+      },
+      "10": {
+       "id": "foret-animaux-blaireau",
+       "name": "Blaireau",
+       "lat": "Meles meles",
+       "cap": "Tête à bandes noires",
+       "image": "images/foret-animaux-blaireau.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 31
+      },
+      "11": {
+       "id": "foret-animaux-escargot-petit-gris",
+       "name": "Escargot petit-gris",
+       "lat": "Cornu aspersum",
+       "cap": "Coquille ronde, brune et rayée",
+       "image": "images/foret-animaux-escargot-petit-gris.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 31
+      },
+      "12": {
+       "id": "foret-animaux-bulime-tronque",
+       "name": "Bulime tronqué",
+       "lat": "Rumina decollata",
+       "cap": "Coquille allongée au bout cassé",
+       "image": "images/foret-animaux-bulime-tronque.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 31
+      },
+      "13": {
+       "id": "foret-animaux-cloporte",
+       "name": "Cloporte",
+       "lat": "Armadillidium vulgare",
+       "cap": "14 pattes, se roule en boule",
+       "image": "images/foret-animaux-cloporte.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 33
+      },
+      "14": {
+       "id": "foret-animaux-glomeris",
+       "name": "Gloméris",
+       "lat": "Glomeris marginata",
+       "cap": "Se roule en boule, plein de pattes",
+       "image": "images/foret-animaux-glomeris.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 33
+      },
+      "15": {
+       "id": "foret-animaux-iule",
+       "name": "Iule",
+       "lat": "Ommatoiulus sp.",
+       "cap": "S'enroule en spirale",
+       "image": "images/foret-animaux-iule.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 33
+      },
+      "16": {
+       "id": "foret-animaux-lithobie",
+       "name": "Lithobie",
+       "lat": "Lithobius forficatus",
+       "cap": "Plat et roux, court très vite",
+       "image": "images/foret-animaux-lithobie.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 33
+      },
+      "17": {
+       "id": "foret-animaux-argiope-frelon",
+       "name": "Argiope frelon",
+       "lat": "Argiope bruennichi",
+       "cap": "Ventre rayé jaune et noir",
+       "image": "images/foret-animaux-argiope-frelon.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 33
+      },
+      "18": {
+       "id": "foret-animaux-epeire-diademe",
+       "name": "Épeire diadème",
+       "lat": "Araneus diadematus",
+       "cap": "Croix blanche sur le dos",
+       "image": "images/foret-animaux-epeire-diademe.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 33
+      },
+      "19": {
+       "id": "foret-animaux-tircis",
+       "name": "Tircis",
+       "lat": "Pararge aegeria",
+       "cap": "Papillon brun à taches crème",
+       "image": "images/foret-animaux-tircis.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 35
+      },
+      "20": {
+       "id": "foret-animaux-coccinelle-a-7-points",
+       "name": "Coccinelle à 7 points",
+       "lat": "Coccinella septempunctata",
+       "cap": "Rouge à 7 points noirs",
+       "image": "images/foret-animaux-coccinelle-a-7-points.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 35
+      },
+      "21": {
+       "id": "foret-animaux-carabe",
+       "name": "Carabe",
+       "lat": "Carabus sp.",
+       "cap": "Coléoptère noir, court vite",
+       "image": "images/foret-animaux-carabe.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 35
+      },
+      "22": {
+       "id": "foret-animaux-dipode-turquoise",
+       "name": "Œdipode turquoise",
+       "lat": "Oedipoda caerulescens",
+       "cap": "Criquet aux ailes bleues en vol",
+       "image": "images/foret-animaux-dipode-turquoise.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 35
+      },
+      "23": {
+       "id": "foret-animaux-perce-oreille",
+       "name": "Perce-oreille",
+       "lat": "Forficula auricularia",
+       "cap": "Pinces au bout du ventre",
+       "image": "images/foret-animaux-perce-oreille.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 35
+      },
+      "24": {
+       "id": "foret-animaux-mante-religieuse",
+       "name": "Mante religieuse",
+       "lat": "Mantis religiosa",
+       "cap": "Pattes avant en pinces",
+       "image": "images/foret-animaux-mante-religieuse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 35
+      },
+      "25": {
+       "id": "foret-animaux-pyrrhocore",
+       "name": "Pyrrhocore",
+       "lat": "Pyrrhocoris apterus",
+       "cap": "« Gendarme » rouge et noir",
+       "image": "images/foret-animaux-pyrrhocore.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 37
+      },
+      "26": {
+       "id": "foret-animaux-fourmi-moissonneuse",
+       "name": "Fourmi moissonneuse",
+       "lat": "Messor sp.",
+       "cap": "Noire, transporte des graines",
+       "image": "images/foret-animaux-fourmi-moissonneuse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 37
+      },
+      "27": {
+       "id": "foret-animaux-crematogastre",
+       "name": "Crématogastre",
+       "lat": "Crematogaster scutellaris",
+       "cap": "Tête rousse, relève son ventre",
+       "image": "images/foret-animaux-crematogastre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 37
+      },
+      "28": {
+       "id": "foret-animaux-abeille-domestique",
+       "name": "Abeille domestique",
+       "lat": "Apis mellifera",
+       "cap": "Velue, butine les fleurs",
+       "image": "images/foret-animaux-abeille-domestique.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 37
+      },
+      "29": {
+       "id": "foret-animaux-frelon-asiatique",
+       "name": "Frelon asiatique",
+       "lat": "Vespa velutina",
+       "cap": "Envahissant, bout des pattes jaune",
+       "image": "images/foret-animaux-frelon-asiatique.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 37
+      },
+      "30": {
+       "id": "foret-animaux-poliste",
+       "name": "Poliste",
+       "lat": "Polistes dominula",
+       "cap": "Guêpe fine, pattes pendantes",
+       "image": "images/foret-animaux-poliste.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 37
+      }
+     }
+    },
+    {
+     "type": "traces",
+     "label": "Traces",
+     "title": "Clé des traces",
+     "intro": "Tu as trouvé un indice de passage ? Pars de la balise 1.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Une marque dans le sol, la terre ou la boue",
+        "go",
+        2
+       ],
+       [
+        "Un objet ou un reste trouvé",
+        "go",
+        6
+       ]
+      ],
+      "2": [
+       [
+        "Une empreinte de pied bien dessinée",
+        "go",
+        3
+       ],
+       [
+        "Une grande zone de terre retournée",
+        "sp",
+        1
+       ]
+      ],
+      "3": [
+       [
+        "Des sabots : 2 moitiés en forme de cœur",
+        "go",
+        4
+       ],
+       [
+        "Des doigts avec des coussinets",
+        "go",
+        5
+       ]
+      ],
+      "4": [
+       [
+        "2 petites marques derrière, empreinte large",
+        "sp",
+        2
+       ],
+       [
+        "Rien derrière, empreinte fine et pointue",
+        "sp",
+        3
+       ]
+      ],
+      "5": [
+       [
+        "4 doigts, empreinte ovale",
+        "sp",
+        4
+       ],
+       [
+        "5 doigts en ligne, très longues griffes",
+        "sp",
+        5
+       ]
+      ],
+      "6": [
+       [
+        "Un morceau de plante abîmé ou déformé",
+        "go",
+        7
+       ],
+       [
+        "Autre chose",
+        "go",
+        11
+       ]
+      ],
+      "7": [
+       [
+        "Une boule ou une corne qui a poussé sur une plante : une galle",
+        "go",
+        8
+       ],
+       [
+        "Un morceau rongé ou percé",
+        "go",
+        10
+       ]
+      ],
+      "8": [
+       [
+        "Longue corne rougeâtre recourbée, sur un pistachier térébinthe",
+        "sp",
+        6
+       ],
+       [
+        "Une boule",
+        "go",
+        9
+       ]
+      ],
+      "9": [
+       [
+        "Boule chevelue, comme de la mousse rouge, sur un églantier",
+        "sp",
+        7
+       ],
+       [
+        "Bille brune, dure et lisse, sur un rameau de chêne",
+        "sp",
+        8
+       ]
+      ],
+      "10": [
+       [
+        "Cône de pin aux écailles arrachées",
+        "sp",
+        9
+       ],
+       [
+        "Trous ronds creusés dans un tronc",
+        "sp",
+        10
+       ]
+      ],
+      "11": [
+       [
+        "Un travail en soie",
+        "go",
+        12
+       ],
+       [
+        "Autre chose",
+        "go",
+        13
+       ]
+      ],
+      "12": [
+       [
+        "Boule de soie blanche au bout d'une branche de pin",
+        "sp",
+        11
+       ],
+       [
+        "Toile ronde tendue entre des branches",
+        "sp",
+        12
+       ]
+      ],
+      "13": [
+       [
+        "Enveloppe vide d'insecte, accrochée à un tronc",
+        "sp",
+        13
+       ],
+       [
+        "Autre chose",
+        "go",
+        14
+       ]
+      ],
+      "14": [
+       [
+        "Plume bleu vif rayée de noir",
+        "sp",
+        14
+       ],
+       [
+        "Crotte allongée et torsadée, sur une pierre",
+        "sp",
+        15
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "foret-traces-terre-retournee-par-le-sanglier",
+       "name": "Terre retournée par le sanglier",
+       "lat": "Sus scrofa",
+       "cap": "Il cherche racines et vers",
+       "image": "images/foret-traces-terre-retournee-par-le-sanglier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 39
+      },
+      "2": {
+       "id": "foret-traces-empreinte-de-sanglier",
+       "name": "Empreinte de sanglier",
+       "lat": "Sus scrofa",
+       "cap": "2 sabots + 2 gardes, 6 à 8 cm",
+       "image": "images/foret-traces-empreinte-de-sanglier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 39
+      },
+      "3": {
+       "id": "foret-traces-empreinte-de-chevreuil",
+       "name": "Empreinte de chevreuil",
+       "lat": "Capreolus capreolus",
+       "cap": "2 sabots pointus, 4 à 5 cm",
+       "image": "images/foret-traces-empreinte-de-chevreuil.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 39
+      },
+      "4": {
+       "id": "foret-traces-empreinte-de-renard",
+       "name": "Empreinte de renard",
+       "lat": "Vulpes vulpes",
+       "cap": "4 doigts, forme ovale",
+       "image": "images/foret-traces-empreinte-de-renard.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 39
+      },
+      "5": {
+       "id": "foret-traces-empreinte-de-blaireau",
+       "name": "Empreinte de blaireau",
+       "lat": "Meles meles",
+       "cap": "5 doigts, longues griffes",
+       "image": "images/foret-traces-empreinte-de-blaireau.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 39
+      },
+      "6": {
+       "id": "foret-traces-galle-en-corne-du-terebinthe",
+       "name": "Galle en corne du térébinthe",
+       "lat": "Baizongia pistaciae",
+       "cap": "Longue corne rougeâtre recourbée",
+       "image": "images/foret-traces-galle-en-corne-du-terebinthe.jpg",
+       "print": false,
+       "online": true,
+       "print_page": null
+      },
+      "7": {
+       "id": "foret-traces-bedegar",
+       "name": "Bédégar",
+       "lat": "Diplolepis rosae",
+       "cap": "Boule chevelue sur l'églantier",
+       "image": "images/foret-traces-bedegar.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 41
+      },
+      "8": {
+       "id": "foret-traces-galle-du-chene",
+       "name": "Galle du chêne",
+       "lat": "Andricus kollari",
+       "cap": "Bille brune et dure, petit trou de sortie",
+       "image": "images/foret-traces-galle-du-chene.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 41
+      },
+      "9": {
+       "id": "foret-traces-cone-ronge-par-l-ecureuil",
+       "name": "Cône rongé par l'écureuil",
+       "lat": "Sciurus vulgaris",
+       "cap": "Il mange les graines",
+       "image": "images/foret-traces-cone-ronge-par-l-ecureuil.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 41
+      },
+      "10": {
+       "id": "foret-traces-trous-de-pic-vert",
+       "name": "Trous de pic vert",
+       "lat": "Picus viridis",
+       "cap": "Il cherche des larves",
+       "image": "images/foret-traces-trous-de-pic-vert.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 41
+      },
+      "11": {
+       "id": "foret-traces-nid-de-processionnaire",
+       "name": "Nid de processionnaire",
+       "lat": "Thaumetopoea pityocampa",
+       "cap": "Ne pas toucher",
+       "image": "images/foret-traces-nid-de-processionnaire.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 43
+      },
+      "12": {
+       "id": "foret-traces-toile-d-epeire",
+       "name": "Toile d'épeire",
+       "lat": "Araneus diadematus",
+       "cap": "Toile ronde en spirale",
+       "image": "images/foret-traces-toile-d-epeire.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 43
+      },
+      "13": {
+       "id": "foret-traces-exuvie-de-cigale",
+       "name": "Exuvie de cigale",
+       "lat": "Cicada orni",
+       "cap": "Peau vide laissée l'été",
+       "image": "images/foret-traces-exuvie-de-cigale.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 43
+      },
+      "14": {
+       "id": "foret-traces-plume-de-geai",
+       "name": "Plume de geai",
+       "lat": "Garrulus glandarius",
+       "cap": "Bleue rayée de noir",
+       "image": "images/foret-traces-plume-de-geai.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 43
+      },
+      "15": {
+       "id": "foret-traces-crotte-de-renard",
+       "name": "Crotte de renard",
+       "lat": "Vulpes vulpes",
+       "cap": "Torsadée, bien visible",
+       "image": "images/foret-traces-crotte-de-renard.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 43
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "ripi",
+   "name": "Ripisylve",
+   "tab": "Ripisylve",
+   "keys": [
+    {
+     "type": "vegetaux",
+     "label": "Végétaux",
+     "title": "Clé de la ripisylve",
+     "intro": "Pars de la balise 1 : elle te dit dans quelle clé chercher.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Un être vivant, ou un morceau (feuille, fleur, fruit…)",
+        "go",
+        2
+       ],
+       [
+        "Une trace : empreinte, crotte, plume, nid, galle…",
+        "ext",
+        "ripi-traces",
+        "Clé des traces",
+        60
+       ]
+      ],
+      "2": [
+       [
+        "Il a des yeux et une bouche",
+        "ext",
+        "ripi-animaux",
+        "Clé des animaux",
+        56
+       ],
+       [
+        "Il n'a ni yeux ni bouche",
+        "go",
+        3
+       ]
+      ],
+      "3": [
+       [
+        "Une tige et des feuilles : un végétal",
+        "go",
+        4
+       ],
+       [
+        "Ni tige ni feuilles : console, croûte ou lanières",
+        "ext",
+        "foret-npa",
+        "Champignons et lichens",
+        24
+       ]
+      ],
+      "4": [
+       [
+        "La plante grimpe ou retombe sur les autres",
+        "go",
+        5
+       ],
+       [
+        "La plante tient debout toute seule",
+        "go",
+        8
+       ]
+      ],
+      "5": [
+       [
+        "Tiges avec des aiguillons crochus, mûres",
+        "sp",
+        1
+       ],
+       [
+        "Pas d'aiguillons",
+        "go",
+        6
+       ]
+      ],
+      "6": [
+       [
+        "Fruits en plumets blancs et soyeux",
+        "sp",
+        2
+       ],
+       [
+        "Pas de plumets",
+        "go",
+        7
+       ]
+      ],
+      "7": [
+       [
+        "Tige lisse qui s'enroule, grandes fleurs blanches en entonnoir",
+        "sp",
+        5
+       ],
+       [
+        "Tige rugueuse qui accroche, petits cônes verts pâles",
+        "sp",
+        6
+       ]
+      ],
+      "8": [
+       [
+        "Tige creuse avec des nœuds, feuilles longues comme des rubans",
+        "go",
+        9
+       ],
+       [
+        "Autre plante",
+        "go",
+        12
+       ]
+      ],
+      "9": [
+       [
+        "Plus de 2 m, tige grosse comme un doigt ou plus",
+        "go",
+        10
+       ],
+       [
+        "Petite herbe de moins de 1 m",
+        "go",
+        11
+       ]
+      ],
+      "10": [
+       [
+        "Feuilles collées à la tige sur 2 rangs, grand plumeau au sommet",
+        "sp",
+        7
+       ],
+       [
+        "Tige dure et lisse, 2 rameaux à chaque nœud",
+        "sp",
+        8
+       ]
+      ],
+      "11": [
+       [
+        "Épillets serrés en paquets denses, touffe dressée",
+        "sp",
+        9
+       ],
+       [
+        "Épis fins en étoile, tiges qui rampent au sol",
+        "sp",
+        10
+       ]
+      ],
+      "12": [
+       [
+        "Arbre ou arbuste avec des tiges en bois",
+        "go",
+        13
+       ],
+       [
+        "Herbe sans bois",
+        "go",
+        22
+       ]
+      ],
+      "13": [
+       [
+        "Feuille faite de plusieurs folioles alignées",
+        "sp",
+        11
+       ],
+       [
+        "Feuille d'une seule pièce",
+        "go",
+        14
+       ]
+      ],
+      "14": [
+       [
+        "Écorce en plaques, feuille en main à 5 pointes",
+        "sp",
+        12
+       ],
+       [
+        "Écorce ordinaire",
+        "go",
+        15
+       ]
+      ],
+      "15": [
+       [
+        "Feuille longue et étroite, au moins 4 fois plus longue que large",
+        "go",
+        16
+       ],
+       [
+        "Feuille plus large",
+        "go",
+        18
+       ]
+      ],
+      "16": [
+       [
+        "Grand arbre, dessous de la feuille argenté et soyeux",
+        "sp",
+        13
+       ],
+       [
+        "Arbuste aux rameaux souples",
+        "go",
+        17
+       ]
+      ],
+      "17": [
+       [
+        "Feuilles très fines, dessous blanc cotonneux, bord enroulé",
+        "sp",
+        14
+       ],
+       [
+        "Feuilles souvent face à face, rameaux pourpres",
+        "sp",
+        15
+       ]
+      ],
+      "18": [
+       [
+        "Feuille ronde au bout échancré, petits cônes",
+        "sp",
+        16
+       ],
+       [
+        "Autre forme de feuille",
+        "go",
+        19
+       ]
+      ],
+      "19": [
+       [
+        "Feuilles face à face, nervures courbées vers la pointe, baies noires",
+        "sp",
+        17
+       ],
+       [
+        "Feuilles une par une",
+        "go",
+        20
+       ]
+      ],
+      "20": [
+       [
+        "Dessous de la feuille blanc et cotonneux",
+        "sp",
+        18
+       ],
+       [
+        "Dessous de la feuille vert",
+        "go",
+        21
+       ]
+      ],
+      "21": [
+       [
+        "Feuille presque ronde à grosses dents, longue queue aplatie",
+        "sp",
+        19
+       ],
+       [
+        "Feuille en triangle, verte des 2 côtés",
+        "sp",
+        20
+       ]
+      ],
+      "22": [
+       [
+        "Feuilles et tiges couvertes de poils qui piquent",
+        "sp",
+        3
+       ],
+       [
+        "Pas de poils qui piquent",
+        "go",
+        23
+       ]
+      ],
+      "23": [
+       [
+        "Feuilles en rosette au ras du sol, fleur jaune ou boule de graines",
+        "sp",
+        21
+       ],
+       [
+        "Feuilles le long de la tige",
+        "go",
+        24
+       ]
+      ],
+      "24": [
+       [
+        "Grande fleur blanche en trompette ou fruit hérissé d'épines",
+        "sp",
+        22
+       ],
+       [
+        "Fleurs minuscules",
+        "go",
+        25
+       ]
+      ],
+      "25": [
+       [
+        "Fleurs en ombelle plate, ou fruits en « nid d'oiseau »",
+        "sp",
+        23
+       ],
+       [
+        "Fleurs en épis, feuilles très découpées",
+        "go",
+        26
+       ]
+      ],
+      "26": [
+       [
+        "Dessous de la feuille blanc argenté",
+        "sp",
+        24
+       ],
+       [
+        "Feuille verte des 2 côtés, tige velue",
+        "sp",
+        4
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "ripi-vegetaux-ronce",
+       "name": "Ronce",
+       "lat": "Rubus sp.",
+       "cap": "Aiguillons crochus, mûres",
+       "image": "images/ripi-vegetaux-ronce.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 45
+      },
+      "2": {
+       "id": "ripi-vegetaux-clematite-des-haies",
+       "name": "Clématite des haies",
+       "lat": "Clematis vitalba",
+       "cap": "Fruits en plumets blancs",
+       "image": "images/ripi-vegetaux-clematite-des-haies.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 45
+      },
+      "3": {
+       "id": "ripi-vegetaux-ortie-dioique",
+       "name": "Ortie dioïque",
+       "lat": "Urtica dioica",
+       "cap": "Poils qui piquent",
+       "image": "images/ripi-vegetaux-ortie-dioique.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 45
+      },
+      "4": {
+       "id": "ripi-vegetaux-ambroisie-a-feuilles-d-armoise",
+       "name": "Ambroisie à feuilles d'armoise",
+       "lat": "Ambrosia artemisiifolia",
+       "cap": "Envahissante, pollen très allergisant",
+       "image": "images/ripi-vegetaux-ambroisie-a-feuilles-d-armoise.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 45
+      },
+      "5": {
+       "id": "ripi-vegetaux-liseron-des-haies",
+       "name": "Liseron des haies",
+       "lat": "Calystegia sepium",
+       "cap": "Grandes fleurs blanches en entonnoir",
+       "image": "images/ripi-vegetaux-liseron-des-haies.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 47
+      },
+      "6": {
+       "id": "ripi-vegetaux-houblon",
+       "name": "Houblon",
+       "lat": "Humulus lupulus",
+       "cap": "Liane, cônes verts",
+       "image": "images/ripi-vegetaux-houblon.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 47
+      },
+      "7": {
+       "id": "ripi-vegetaux-canne-de-provence",
+       "name": "Canne de Provence",
+       "lat": "Arundo donax",
+       "cap": "Tige creuse, jusqu'à 5 m",
+       "image": "images/ripi-vegetaux-canne-de-provence.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 47
+      },
+      "8": {
+       "id": "ripi-vegetaux-bambou",
+       "name": "Bambou",
+       "lat": "Phyllostachys sp.",
+       "cap": "Espèce introduite, tige en bois",
+       "image": "images/ripi-vegetaux-bambou.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 47
+      },
+      "9": {
+       "id": "ripi-vegetaux-dactyle-agglomere",
+       "name": "Dactyle aggloméré",
+       "lat": "Dactylis glomerata",
+       "cap": "Épillets serrés en paquets",
+       "image": "images/ripi-vegetaux-dactyle-agglomere.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 49
+      },
+      "10": {
+       "id": "ripi-vegetaux-chiendent-pied-de-poule",
+       "name": "Chiendent pied-de-poule",
+       "lat": "Cynodon dactylon",
+       "cap": "Épis fins en étoile, tiges qui rampent",
+       "image": "images/ripi-vegetaux-chiendent-pied-de-poule.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 49
+      },
+      "11": {
+       "id": "ripi-vegetaux-frene-a-feuilles-etroites",
+       "name": "Frêne à feuilles étroites",
+       "lat": "Fraxinus angustifolia",
+       "cap": "Feuille composée",
+       "image": "images/ripi-vegetaux-frene-a-feuilles-etroites.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 49
+      },
+      "12": {
+       "id": "ripi-vegetaux-platane",
+       "name": "Platane",
+       "lat": "Platanus × hispanica",
+       "cap": "Écorce en plaques, boules",
+       "image": "images/ripi-vegetaux-platane.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 49
+      },
+      "13": {
+       "id": "ripi-vegetaux-saule-blanc",
+       "name": "Saule blanc",
+       "lat": "Salix alba",
+       "cap": "Feuille étroite, argentée",
+       "image": "images/ripi-vegetaux-saule-blanc.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 51
+      },
+      "14": {
+       "id": "ripi-vegetaux-saule-drapier",
+       "name": "Saule drapier",
+       "lat": "Salix eleagnos",
+       "cap": "Feuilles très fines, dessous blanc",
+       "image": "images/ripi-vegetaux-saule-drapier.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 51
+      },
+      "15": {
+       "id": "ripi-vegetaux-saule-pourpre",
+       "name": "Saule pourpre",
+       "lat": "Salix purpurea",
+       "cap": "Rameaux pourpres, feuilles par deux",
+       "image": "images/ripi-vegetaux-saule-pourpre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 51
+      },
+      "16": {
+       "id": "ripi-vegetaux-aulne-glutineux",
+       "name": "Aulne glutineux",
+       "lat": "Alnus glutinosa",
+       "cap": "Feuille ronde, petits cônes",
+       "image": "images/ripi-vegetaux-aulne-glutineux.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 51
+      },
+      "17": {
+       "id": "ripi-vegetaux-cornouiller-sanguin",
+       "name": "Cornouiller sanguin",
+       "lat": "Cornus sanguinea",
+       "cap": "Rameaux rouges, baies noires",
+       "image": "images/ripi-vegetaux-cornouiller-sanguin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 53
+      },
+      "18": {
+       "id": "ripi-vegetaux-peuplier-blanc",
+       "name": "Peuplier blanc",
+       "lat": "Populus alba",
+       "cap": "Dessous blanc cotonneux",
+       "image": "images/ripi-vegetaux-peuplier-blanc.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 53
+      },
+      "19": {
+       "id": "ripi-vegetaux-peuplier-tremble",
+       "name": "Peuplier tremble",
+       "lat": "Populus tremula",
+       "cap": "Feuilles qui tremblent au vent",
+       "image": "images/ripi-vegetaux-peuplier-tremble.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 53
+      },
+      "20": {
+       "id": "ripi-vegetaux-peuplier-noir",
+       "name": "Peuplier noir",
+       "lat": "Populus nigra",
+       "cap": "Feuille en triangle ; dit « peuplier commun »",
+       "image": "images/ripi-vegetaux-peuplier-noir.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 53
+      },
+      "21": {
+       "id": "ripi-vegetaux-pissenlit",
+       "name": "Pissenlit",
+       "lat": "Taraxacum officinale",
+       "cap": "Rosette au sol, fleur jaune",
+       "image": "images/ripi-vegetaux-pissenlit.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 55
+      },
+      "22": {
+       "id": "ripi-vegetaux-datura",
+       "name": "Datura",
+       "lat": "Datura stramonium",
+       "cap": "Toxique : ne pas toucher",
+       "image": "images/ripi-vegetaux-datura.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 55
+      },
+      "23": {
+       "id": "ripi-vegetaux-carotte-sauvage",
+       "name": "Carotte sauvage",
+       "lat": "Daucus carota",
+       "cap": "Ombelle blanche, point sombre au centre",
+       "image": "images/ripi-vegetaux-carotte-sauvage.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 55
+      },
+      "24": {
+       "id": "ripi-vegetaux-armoise-commune",
+       "name": "Armoise commune",
+       "lat": "Artemisia vulgaris",
+       "cap": "Dessous des feuilles blanc argenté",
+       "image": "images/ripi-vegetaux-armoise-commune.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 55
+      }
+     }
+    },
+    {
+     "type": "animaux",
+     "label": "Animaux",
+     "title": "Clé des animaux",
+     "intro": "Observe en silence depuis la berge, puis pars de la balise 1.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Des plumes : c'est un oiseau",
+        "go",
+        2
+       ],
+       [
+        "Pas de plumes",
+        "go",
+        5
+       ]
+      ],
+      "2": [
+       [
+        "Très grand (1 m), gris, long cou et longues pattes",
+        "sp",
+        1
+       ],
+       [
+        "Plus petit",
+        "go",
+        3
+       ]
+      ],
+      "3": [
+       [
+        "Nage sur l'eau, bec plat et large",
+        "sp",
+        2
+       ],
+       [
+        "Ne nage pas",
+        "go",
+        4
+       ]
+      ],
+      "4": [
+       [
+        "Bleu turquoise et ventre orange, gros bec",
+        "sp",
+        3
+       ],
+       [
+        "Ventre jaune, longue queue qui remue",
+        "sp",
+        4
+       ]
+      ],
+      "5": [
+       [
+        "Des poils : c'est un mammifère",
+        "go",
+        6
+       ],
+       [
+        "Peau nue ou écailles",
+        "go",
+        7
+       ]
+      ],
+      "6": [
+       [
+        "Queue large et plate, comme une raquette",
+        "sp",
+        5
+       ],
+       [
+        "Queue ronde et fine, dents orange",
+        "sp",
+        6
+       ]
+      ],
+      "7": [
+       [
+        "Peau nue et humide, saute dans l'eau",
+        "sp",
+        7
+       ],
+       [
+        "Écailles, pas de pattes, dessins en damier",
+        "sp",
+        8
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "ripi-animaux-heron-cendre",
+       "name": "Héron cendré",
+       "lat": "Ardea cinerea",
+       "cap": "Immobile dans l'eau",
+       "image": "images/ripi-animaux-heron-cendre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 57
+      },
+      "2": {
+       "id": "ripi-animaux-canard-colvert",
+       "name": "Canard colvert",
+       "lat": "Anas platyrhynchos",
+       "cap": "Bec plat et large",
+       "image": "images/ripi-animaux-canard-colvert.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 57
+      },
+      "3": {
+       "id": "ripi-animaux-martin-pecheur",
+       "name": "Martin-pêcheur",
+       "lat": "Alcedo atthis",
+       "cap": "Bleu vif, ventre orange",
+       "image": "images/ripi-animaux-martin-pecheur.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 57
+      },
+      "4": {
+       "id": "ripi-animaux-bergeronnette-des-ruisseaux",
+       "name": "Bergeronnette des ruisseaux",
+       "lat": "Motacilla cinerea",
+       "cap": "Queue qui remue sans arrêt",
+       "image": "images/ripi-animaux-bergeronnette-des-ruisseaux.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 57
+      },
+      "5": {
+       "id": "ripi-animaux-castor-d-europe",
+       "name": "Castor d'Europe",
+       "lat": "Castor fiber",
+       "cap": "Queue plate, surtout la nuit",
+       "image": "images/ripi-animaux-castor-d-europe.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 59
+      },
+      "6": {
+       "id": "ripi-animaux-ragondin",
+       "name": "Ragondin",
+       "lat": "Myocastor coypus",
+       "cap": "Espèce introduite",
+       "image": "images/ripi-animaux-ragondin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 59
+      },
+      "7": {
+       "id": "ripi-animaux-grenouille-rieuse",
+       "name": "Grenouille rieuse",
+       "lat": "Pelophylax ridibundus",
+       "cap": "Pattes arrière palmées",
+       "image": "images/ripi-animaux-grenouille-rieuse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 59
+      },
+      "8": {
+       "id": "ripi-animaux-couleuvre-viperine",
+       "name": "Couleuvre vipérine",
+       "lat": "Natrix maura",
+       "cap": "Inoffensive : ne pas la toucher",
+       "image": "images/ripi-animaux-couleuvre-viperine.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 59
+      }
+     }
+    },
+    {
+     "type": "traces",
+     "label": "Traces",
+     "title": "Clé des traces",
+     "intro": "Cherche dans la vase, sur les troncs et sur les galets.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Une trace sur du bois",
+        "go",
+        2
+       ],
+       [
+        "Une autre trace",
+        "go",
+        3
+       ]
+      ],
+      "2": [
+       [
+        "Tronc taillé en pointe de crayon, copeaux",
+        "sp",
+        1
+       ],
+       [
+        "Branche sans écorce, marques de dents",
+        "sp",
+        2
+       ]
+      ],
+      "3": [
+       [
+        "Une empreinte dans la vase ou le sable",
+        "go",
+        4
+       ],
+       [
+        "Une autre trace",
+        "go",
+        6
+       ]
+      ],
+      "4": [
+       [
+        "Doigts longs et fins, sans palmure",
+        "sp",
+        3
+       ],
+       [
+        "Doigts reliés par une palmure",
+        "go",
+        5
+       ]
+      ],
+      "5": [
+       [
+        "3 doigts vers l'avant, palmure en triangle",
+        "sp",
+        4
+       ],
+       [
+        "5 doigts, trait laissé par la queue",
+        "sp",
+        5
+       ]
+      ],
+      "6": [
+       [
+        "Un trou dans la berge, au ras de l'eau",
+        "sp",
+        6
+       ],
+       [
+        "Grandes taches blanches sur les galets",
+        "sp",
+        7
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "ripi-traces-tronc-ronge-par-le-castor",
+       "name": "Tronc rongé par le castor",
+       "lat": "Castor fiber",
+       "cap": "Taillé en pointe de crayon",
+       "image": "images/ripi-traces-tronc-ronge-par-le-castor.jpg",
+       "print": false,
+       "online": true,
+       "print_page": null
+      },
+      "2": {
+       "id": "ripi-traces-branche-ecorcee-par-le-castor",
+       "name": "Branche écorcée par le castor",
+       "lat": "Castor fiber",
+       "cap": "Il mange l'écorce",
+       "image": "images/ripi-traces-branche-ecorcee-par-le-castor.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 61
+      },
+      "3": {
+       "id": "ripi-traces-empreinte-de-heron",
+       "name": "Empreinte de héron",
+       "lat": "Ardea cinerea",
+       "cap": "4 doigts fins, 15 cm",
+       "image": "images/ripi-traces-empreinte-de-heron.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 61
+      },
+      "4": {
+       "id": "ripi-traces-empreinte-de-canard",
+       "name": "Empreinte de canard",
+       "lat": "Anas platyrhynchos",
+       "cap": "3 doigts palmés",
+       "image": "images/ripi-traces-empreinte-de-canard.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 61
+      },
+      "5": {
+       "id": "ripi-traces-empreinte-de-ragondin",
+       "name": "Empreinte de ragondin",
+       "lat": "Myocastor coypus",
+       "cap": "5 doigts, trait de queue",
+       "image": "images/ripi-traces-empreinte-de-ragondin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 61
+      },
+      "6": {
+       "id": "ripi-traces-terrier-de-ragondin",
+       "name": "Terrier de ragondin",
+       "lat": "Myocastor coypus",
+       "cap": "Trou dans la berge",
+       "image": "images/ripi-traces-terrier-de-ragondin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 61
+      },
+      "7": {
+       "id": "ripi-traces-fientes-de-heron",
+       "name": "Fientes de héron",
+       "lat": "Ardea cinerea",
+       "cap": "Taches blanches",
+       "image": "images/ripi-traces-fientes-de-heron.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 61
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "riv",
+   "name": "Rivière (la Cèze)",
+   "tab": "Rivière",
+   "keys": [
+    {
+     "type": "vegetaux",
+     "label": "Végétaux",
+     "title": "Clé de la rivière",
+     "intro": "Observe ce que tu trouves dans l'eau ou au bord. Pars de la balise 1 : elle te dit dans quelle clé chercher.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Un être vivant, ou un morceau",
+        "go",
+        2
+       ],
+       [
+        "Une trace : fourreau vide, coquille vide…",
+        "ext",
+        "riv-traces",
+        "Clé des traces",
+        72
+       ]
+      ],
+      "2": [
+       [
+        "Il a des yeux et une bouche : une petite bête",
+        "ext",
+        "riv-animaux",
+        "Clé des petites bêtes",
+        66
+       ],
+       [
+        "Il n'a ni yeux ni bouche : une plante ou une algue",
+        "go",
+        3
+       ]
+      ],
+      "3": [
+       [
+        "La plante dépasse de l'eau, les pieds dans l'eau",
+        "go",
+        4
+       ],
+       [
+        "La plante est sous l'eau ou flotte",
+        "go",
+        8
+       ]
+      ],
+      "4": [
+       [
+        "Longues feuilles en ruban ou en épée",
+        "go",
+        5
+       ],
+       [
+        "Autres feuilles, ou pas de feuilles",
+        "go",
+        6
+       ]
+      ],
+      "5": [
+       [
+        "Un « cigare » brun au bout d'une tige",
+        "sp",
+        1
+       ],
+       [
+        "Feuilles plates en éventail, comme des épées",
+        "sp",
+        2
+       ]
+      ],
+      "6": [
+       [
+        "Tige creuse qui se déboîte, sans vraies feuilles",
+        "sp",
+        3
+       ],
+       [
+        "De vraies feuilles",
+        "go",
+        7
+       ]
+      ],
+      "7": [
+       [
+        "Feuilles dentées, odeur de menthe",
+        "sp",
+        5
+       ],
+       [
+        "Feuilles faites de folioles rondes",
+        "sp",
+        6
+       ]
+      ],
+      "8": [
+       [
+        "Longs fils verts, fins comme des cheveux",
+        "sp",
+        7
+       ],
+       [
+        "Une vraie plante avec des feuilles",
+        "go",
+        9
+       ]
+      ],
+      "9": [
+       [
+        "Petites feuilles serrées, accrochée aux pierres",
+        "sp",
+        8
+       ],
+       [
+        "Longues touffes qui ondulent dans le courant",
+        "sp",
+        4
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "riv-vegetaux-massette",
+       "name": "Massette",
+       "lat": "Typha latifolia",
+       "cap": "« Cigare » brun",
+       "image": "images/riv-vegetaux-massette.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 63
+      },
+      "2": {
+       "id": "riv-vegetaux-iris-des-marais",
+       "name": "Iris des marais",
+       "lat": "Iris pseudacorus",
+       "cap": "Feuilles en épée",
+       "image": "images/riv-vegetaux-iris-des-marais.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 63
+      },
+      "3": {
+       "id": "riv-vegetaux-prele",
+       "name": "Prêle",
+       "lat": "Equisetum sp.",
+       "cap": "Tige qui se déboîte",
+       "image": "images/riv-vegetaux-prele.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 63
+      },
+      "4": {
+       "id": "riv-vegetaux-renoncule-flottante",
+       "name": "Renoncule flottante",
+       "lat": "Ranunculus fluitans",
+       "cap": "Ondule dans le courant",
+       "image": "images/riv-vegetaux-renoncule-flottante.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 63
+      },
+      "5": {
+       "id": "riv-vegetaux-menthe-aquatique",
+       "name": "Menthe aquatique",
+       "lat": "Mentha aquatica",
+       "cap": "Odeur de menthe",
+       "image": "images/riv-vegetaux-menthe-aquatique.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 65
+      },
+      "6": {
+       "id": "riv-vegetaux-cresson-de-fontaine",
+       "name": "Cresson de fontaine",
+       "lat": "Nasturtium officinale",
+       "cap": "Ne pas le manger",
+       "image": "images/riv-vegetaux-cresson-de-fontaine.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 65
+      },
+      "7": {
+       "id": "riv-vegetaux-algue-filamenteuse",
+       "name": "Algue filamenteuse",
+       "lat": "Cladophora sp.",
+       "cap": "Fils verts glissants",
+       "image": "images/riv-vegetaux-algue-filamenteuse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 65
+      },
+      "8": {
+       "id": "riv-vegetaux-fontinale",
+       "name": "Fontinale",
+       "lat": "Fontinalis antipyretica",
+       "cap": "Mousse des pierres",
+       "image": "images/riv-vegetaux-fontinale.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 65
+      }
+     }
+    },
+    {
+     "type": "animaux",
+     "label": "Petites bêtes",
+     "title": "Clé des petites bêtes",
+     "intro": "Mets l'animal dans le bac blanc avec de l'eau, regarde-le à la loupe.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "L'animal a une coquille",
+        "go",
+        2
+       ],
+       [
+        "L'animal n'a pas de coquille",
+        "go",
+        5
+       ]
+      ],
+      "2": [
+       [
+        "Coquille en 2 parties, comme une moule",
+        "sp",
+        1
+       ],
+       [
+        "Coquille en 1 seule partie",
+        "go",
+        3
+       ]
+      ],
+      "3": [
+       [
+        "Petit chapeau pointu collé au galet",
+        "sp",
+        2
+       ],
+       [
+        "Coquille en spirale",
+        "go",
+        4
+       ]
+      ],
+      "4": [
+       [
+        "Pointe en haut, ouverture à droite",
+        "sp",
+        3
+       ],
+       [
+        "Pointe en haut, ouverture à gauche",
+        "sp",
+        4
+       ]
+      ],
+      "5": [
+       [
+        "Pas de pattes",
+        "go",
+        6
+       ],
+       [
+        "Des pattes",
+        "go",
+        8
+       ]
+      ],
+      "6": [
+       [
+        "Petit ver rouge vif",
+        "sp",
+        5
+       ],
+       [
+        "Pas rouge",
+        "go",
+        7
+       ]
+      ],
+      "7": [
+       [
+        "Anneaux, une ventouse à chaque bout",
+        "sp",
+        7
+       ],
+       [
+        "Plat et mou, 2 points noirs sur la tête",
+        "sp",
+        8
+       ]
+      ],
+      "8": [
+       [
+        "Plus de 6 pattes",
+        "go",
+        9
+       ],
+       [
+        "6 pattes",
+        "go",
+        11
+       ]
+      ],
+      "9": [
+       [
+        "Deux grosses pinces",
+        "sp",
+        9
+       ],
+       [
+        "Pas de pinces",
+        "go",
+        10
+       ]
+      ],
+      "10": [
+       [
+        "Aplati sur le côté, nage couché",
+        "sp",
+        10
+       ],
+       [
+        "Aplati de haut en bas, marche",
+        "sp",
+        11
+       ]
+      ],
+      "11": [
+       [
+        "Vit dans un fourreau de sable ou de brindilles",
+        "sp",
+        12
+       ],
+       [
+        "Pas de fourreau",
+        "go",
+        12
+       ]
+      ],
+      "12": [
+       [
+        "Nage ou se déplace à la surface de l'eau",
+        "go",
+        13
+       ],
+       [
+        "Vit au fond, sous les pierres",
+        "go",
+        15
+       ]
+      ],
+      "13": [
+       [
+        "Nage sur le dos avec 2 longues pattes-rames",
+        "sp",
+        13
+       ],
+       [
+        "Reste sur la surface",
+        "go",
+        14
+       ]
+      ],
+      "14": [
+       [
+        "Longues pattes fines, glisse sur l'eau",
+        "sp",
+        14
+       ],
+       [
+        "Petit, noir brillant, tourne en rond",
+        "sp",
+        15
+       ]
+      ],
+      "15": [
+       [
+        "3 filaments fins au bout du corps",
+        "sp",
+        16
+       ],
+       [
+        "Autre chose au bout du corps",
+        "go",
+        16
+       ]
+      ],
+      "16": [
+       [
+        "2 filaments au bout du corps",
+        "sp",
+        17
+       ],
+       [
+        "Pas de filaments",
+        "go",
+        17
+       ]
+      ],
+      "17": [
+       [
+        "3 petites palettes plates, corps fin",
+        "sp",
+        18
+       ],
+       [
+        "Corps trapu, petites pointes au bout",
+        "sp",
+        6
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "riv-animaux-corbicule",
+       "name": "Corbicule",
+       "lat": "Corbicula sp.",
+       "cap": "Espèce introduite",
+       "image": "images/riv-animaux-corbicule.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 67
+      },
+      "2": {
+       "id": "riv-animaux-ancyle-fluviatile",
+       "name": "Ancyle fluviatile",
+       "lat": "Ancylus fluviatilis",
+       "cap": "Collée aux galets",
+       "image": "images/riv-animaux-ancyle-fluviatile.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 67
+      },
+      "3": {
+       "id": "riv-animaux-limnee",
+       "name": "Limnée",
+       "lat": "Lymnaea sp.",
+       "cap": "Ouverture à droite",
+       "image": "images/riv-animaux-limnee.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 67
+      },
+      "4": {
+       "id": "riv-animaux-physe",
+       "name": "Physe",
+       "lat": "Physa sp.",
+       "cap": "Ouverture à gauche",
+       "image": "images/riv-animaux-physe.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 67
+      },
+      "5": {
+       "id": "riv-animaux-larve-de-chironome",
+       "name": "Larve de chironome",
+       "lat": "Chironomus sp.",
+       "cap": "Petit ver rouge",
+       "image": "images/riv-animaux-larve-de-chironome.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 67
+      },
+      "6": {
+       "id": "riv-animaux-larve-de-libellule",
+       "name": "Larve de libellule",
+       "lat": "Anisoptera",
+       "cap": "Trapue",
+       "image": "images/riv-animaux-larve-de-libellule.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 67
+      },
+      "7": {
+       "id": "riv-animaux-sangsue",
+       "name": "Sangsue",
+       "lat": "Erpobdella sp.",
+       "cap": "Deux ventouses",
+       "image": "images/riv-animaux-sangsue.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 69
+      },
+      "8": {
+       "id": "riv-animaux-planaire",
+       "name": "Planaire",
+       "lat": "Dugesia sp.",
+       "cap": "Deux points noirs",
+       "image": "images/riv-animaux-planaire.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 69
+      },
+      "9": {
+       "id": "riv-animaux-ecrevisse",
+       "name": "Écrevisse",
+       "lat": "espèces américaines",
+       "cap": "Espèce introduite",
+       "image": "images/riv-animaux-ecrevisse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 69
+      },
+      "10": {
+       "id": "riv-animaux-gammare",
+       "name": "Gammare",
+       "lat": "Gammarus sp.",
+       "cap": "Nage couché",
+       "image": "images/riv-animaux-gammare.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 69
+      },
+      "11": {
+       "id": "riv-animaux-aselle",
+       "name": "Aselle",
+       "lat": "Asellus aquaticus",
+       "cap": "Comme un cloporte",
+       "image": "images/riv-animaux-aselle.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 69
+      },
+      "12": {
+       "id": "riv-animaux-larve-de-trichoptere",
+       "name": "Larve de trichoptère",
+       "lat": "Trichoptera",
+       "cap": "Vit dans un fourreau",
+       "image": "images/riv-animaux-larve-de-trichoptere.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 69
+      },
+      "13": {
+       "id": "riv-animaux-notonecte",
+       "name": "Notonecte",
+       "lat": "Notonecta glauca",
+       "cap": "Pique : ne pas toucher",
+       "image": "images/riv-animaux-notonecte.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 71
+      },
+      "14": {
+       "id": "riv-animaux-gerris",
+       "name": "Gerris",
+       "lat": "Gerris sp.",
+       "cap": "Marche sur l'eau",
+       "image": "images/riv-animaux-gerris.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 71
+      },
+      "15": {
+       "id": "riv-animaux-gyrin",
+       "name": "Gyrin",
+       "lat": "Gyrinus sp.",
+       "cap": "Tourne en rond",
+       "image": "images/riv-animaux-gyrin.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 71
+      },
+      "16": {
+       "id": "riv-animaux-larve-d-ephemere",
+       "name": "Larve d'éphémère",
+       "lat": "Ephemeroptera",
+       "cap": "3 filaments",
+       "image": "images/riv-animaux-larve-d-ephemere.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 71
+      },
+      "17": {
+       "id": "riv-animaux-larve-de-plecoptere",
+       "name": "Larve de plécoptère",
+       "lat": "Plecoptera",
+       "cap": "2 filaments",
+       "image": "images/riv-animaux-larve-de-plecoptere.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 71
+      },
+      "18": {
+       "id": "riv-animaux-larve-de-demoiselle",
+       "name": "Larve de demoiselle",
+       "lat": "Zygoptera",
+       "cap": "3 palettes",
+       "image": "images/riv-animaux-larve-de-demoiselle.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 71
+      }
+     }
+    },
+    {
+     "type": "traces",
+     "label": "Traces",
+     "title": "Clé des traces",
+     "intro": "Cherche sur les galets de la berge et sur les tiges au bord de l'eau.",
+     "root": 1,
+     "couplets": {
+      "1": [
+       [
+        "Une coquille dure et vide",
+        "go",
+        2
+       ],
+       [
+        "Autre chose",
+        "go",
+        3
+       ]
+      ],
+      "2": [
+       [
+        "Coquille en 2 parties, avec des stries",
+        "sp",
+        1
+       ],
+       [
+        "Coquille en spirale",
+        "sp",
+        2
+       ]
+      ],
+      "3": [
+       [
+        "Enveloppe vide laissée par un animal",
+        "go",
+        4
+       ],
+       [
+        "Petit tube de sable ou de brindilles",
+        "sp",
+        3
+       ]
+      ],
+      "4": [
+       [
+        "Peau longue et fine, avec des écailles",
+        "sp",
+        4
+       ],
+       [
+        "Enveloppe avec des pattes",
+        "go",
+        5
+       ]
+      ],
+      "5": [
+       [
+        "6 pattes, accrochée à une tige, fendue sur le dos",
+        "sp",
+        5
+       ],
+       [
+        "10 pattes dont 2 grosses pinces",
+        "sp",
+        6
+       ]
+      ]
+     },
+     "species": {
+      "1": {
+       "id": "riv-traces-coquille-de-corbicule",
+       "name": "Coquille de corbicule",
+       "lat": "Corbicula sp.",
+       "cap": "Vide, sur la berge",
+       "image": "images/riv-traces-coquille-de-corbicule.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 73
+      },
+      "2": {
+       "id": "riv-traces-coquille-de-limnee-ou-de-physe",
+       "name": "Coquille de limnée ou de physe",
+       "lat": "Lymnaea, Physa",
+       "cap": "Vide, en spirale",
+       "image": "images/riv-traces-coquille-de-limnee-ou-de-physe.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 73
+      },
+      "3": {
+       "id": "riv-traces-fourreau-vide",
+       "name": "Fourreau vide",
+       "lat": "Trichoptera",
+       "cap": "Sable ou brindilles",
+       "image": "images/riv-traces-fourreau-vide.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 73
+      },
+      "4": {
+       "id": "riv-traces-mue-de-couleuvre",
+       "name": "Mue de couleuvre",
+       "lat": "Natrix maura",
+       "cap": "Peau laissée en grandissant",
+       "image": "images/riv-traces-mue-de-couleuvre.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 73
+      },
+      "5": {
+       "id": "riv-traces-exuvie-de-libellule",
+       "name": "Exuvie de libellule",
+       "lat": "Anisoptera",
+       "cap": "La larve est devenue adulte",
+       "image": "images/riv-traces-exuvie-de-libellule.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 73
+      },
+      "6": {
+       "id": "riv-traces-mue-d-ecrevisse",
+       "name": "Mue d'écrevisse",
+       "lat": "espèces américaines",
+       "cap": "Carapace vide",
+       "image": "images/riv-traces-mue-d-ecrevisse.jpg",
+       "print": true,
+       "online": true,
+       "print_page": 73
+      }
+     }
+    }
+   ]
+  }
+ ]
+}
